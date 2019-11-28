@@ -1,5 +1,8 @@
 Run
-– Node.js Server: npm start.
-– Vue.js Client: npm run serve.
+
+â€“ Node.js Server: npm start.
+
+â€“ Vue.js Client: npm run serve.
+
 
 Open Browser with Url: http://localhost:4200/
