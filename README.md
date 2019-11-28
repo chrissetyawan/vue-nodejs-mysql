@@ -1,8 +1,15 @@
 Run
 
-– Node.js Server: npm start.
+Node.js Server: 
 
-– Vue.js Client: npm run serve.
+- configure database config on \app\config\env.js
+- npm install
+- npm start
+
+Vue.js Client: 
+
+- npm install
+- npm run serve
 
 
 Open Browser with Url: http://localhost:4200/
