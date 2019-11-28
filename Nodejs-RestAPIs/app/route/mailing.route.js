@@ -1,8 +1,14 @@
 const multer = require("multer");
+const fs = require('fs');
 
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
-    cb(null, 'uploads/')
+    const dir = './uploads/';
+    if (!fs.existsSync(dir)){
+      fs.mkdirSync(dir);
+    }
+
+    cb(null, dir)
   },
   filename: function (req, file, cb) {
     cb(null, file.originalname)
@@ -25,6 +31,6 @@ module.exports = function(app) {
     // Retrieve a data by Id
     app.get('/api/mailing/download/:id', mailings.download);
 
-    // test 
+    // test
     app.post('/api/test', mailings.test);
 }
