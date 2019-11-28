@@ -2,6 +2,7 @@ Run
 
 Node.js Server: 
 
+- create Mysql DB 
 - configure database config on \app\config\env.js
 - npm install
 - npm start
