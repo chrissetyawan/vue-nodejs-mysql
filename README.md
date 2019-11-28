@@ -1,5 +1,3 @@
-Run
-
 Node.js Server: 
 
 - Create empty Mysql DB (doesn't need to create any table)
@@ -14,3 +12,7 @@ Vue.js Client:
 
 
 Open Browser with Url: http://localhost:4200/
+
+
+
+CSV example to upload and save to DB is under "examplefiles" folder
