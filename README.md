@@ -2,7 +2,7 @@ Run
 
 Node.js Server: 
 
-- create Mysql DB 
+- Doesnt need to create table. just create empty Mysql DB 
 - configure database config on \app\config\env.js
 - npm install
 - npm start
