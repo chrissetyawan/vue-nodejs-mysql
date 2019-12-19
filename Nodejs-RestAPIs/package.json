@@ -13,7 +13,6 @@
     "MySQL",
     "Vue.js"
   ],
-  "author": "grokonez.com",
   "license": "ISC",
   "dependencies": {
     "better-queue": "^3.8.10",
